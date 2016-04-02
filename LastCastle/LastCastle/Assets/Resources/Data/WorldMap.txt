@@ -1,0 +1,54 @@
+﻿{
+	"maps":[
+		{
+			"ID": 0,
+			"Name": "Map 1"
+			"Icon": "",
+			"MapObject": 1001,
+			"Position": "-337,-139,0",
+			"Rotation": "0,0,0",
+		},{
+			"ID": 1,
+			"Name": "Map 2"
+			"Icon": "",
+			"MapObject": 1002,
+			"Position": "-283,-14,0",
+			"Rotation": "0,0,0",
+		},{
+			"ID": 2,
+			"Name": "Map 3"
+			"Icon": "",
+			"MapObject": 1003,
+			"Position": "-224,-70,0",
+			"Rotation": "0,0,0",
+		},{
+			"ID": 3,
+			"Name": "Map 4"
+			"Icon": "",
+			"MapObject": 1004,
+			"Position": "-103,-84,0",
+			"Rotation": "0,0,0",
+		},{
+			"ID": 4,
+			"Name": "Map 5"
+			"Icon": "",
+			"MapObject": 1005,
+			"Position": "-120,-3,0",
+			"Rotation": "0,0,0",
+		},{
+			"ID": 5,
+			"Name": "Map 6"
+			"Icon": "",
+			"MapObject": 1006,
+			"Position": "-148,80,0",
+			"Rotation": "0,0,0",
+		},{
+			"ID": 6,
+			"Name": "Map 7"
+			"Icon": "",
+			"MapObject": 1007,
+			"Position": "-137,141,0",
+			"Rotation": "0,0,0",
+		} 
+	]
+}

@@ -1,0 +1,20 @@
+﻿{
+	"Warrior": 20,
+	"Mage": 20,
+	"Archer": 20,
+	"Paladin": 20,
+	"BeastHunter": 20,
+	"DemonWarrior":20,
+	"DemonMage":20,
+	"DemonArcher":20,
+	"DeathKnight": 20,
+	"DemonHunter": 20,
+	"StoneCastle": 2,
+	"FireCastle": 2,
+	"Farm": 10,
+	"LakeFishing": 10,
+	"Mine": 10,
+	"CattleStation": 10,
+	"BunnyCave": 10,
+	"Bunny": 20
+}

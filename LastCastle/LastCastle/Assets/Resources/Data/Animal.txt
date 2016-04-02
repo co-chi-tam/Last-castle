@@ -1,0 +1,21 @@
+﻿{
+	"animals" : [
+		{
+			"ID": 1,
+			"Name": "bunny",
+			"EntityType": 601,
+			"Description": "",
+			"ModelPaths": ["Prefabs/Animal/Bunny"],
+			"FSMPath": "FSM/AnimalFSM",
+			"Icon": "",
+			"MoveSpeed": 2,
+			"DetectRange": 5,
+			"AttackDamage": 1,
+			"AttackRange": 1,
+			"AttackSpeed": 1,
+			"CurrentHealthPoint": 1,
+			"MaxHealthPoint": 1,
+			"DropResources": [0,0,20,0]
+		}
+	]
+}

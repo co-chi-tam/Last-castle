@@ -1,0 +1,43 @@
+﻿{
+	"castles" : [
+		{
+			"ID": 1,
+			"Name": "StoneCastle",
+			"EntityType": 301,
+			"Description": "",
+			"ModelPaths": ["Prefabs/Castle/StoneCastle"],
+			"FSMPath": "FSM/CastleFSM",
+			"WavePath": "Data/TroopWave",
+			"Icon": "",
+			"CurrentHealthPoint": 500,
+			"MaxHealthPoint": 500,
+			"Resources": [100,0,0,0],
+			"Population": 100,
+			"TroopTypes": [101,102,103,104,105],
+			"ResourceBonus": 1,
+			"HealthPointBonus": 1,
+			"MoveSpeedBonus": 1,
+			"GoldWinBonus": 200,
+			"CostGold": 1000
+		},{
+			"ID": 2,
+			"Name": "FireCastle",
+			"EntityType": 302,
+			"Description": "",
+			"ModelPaths": ["Prefabs/Castle/FireCastle"],
+			"FSMPath": "FSM/CastleFSM",
+			"WavePath": "Data/TroopWave",
+			"Icon": "",
+			"CurrentHealthPoint": 400,
+			"MaxHealthPoint": 400,
+			"Resources": [100,0,0,0],
+			"Population": 200,
+			"TroopTypes": [201,202,203,204,205],
+			"ResourceBonus": 1,
+			"HealthPointBonus": 1,
+			"MoveSpeedBonus": 1,
+			"GoldWinBonus": 300,
+			"CostGold": 3000
+		}
+	]
+}

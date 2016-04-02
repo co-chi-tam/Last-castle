@@ -1,0 +1,83 @@
+﻿{
+  "fsm": [
+    {
+      "condition_name": "IsRoot",
+      "condition_value": true,
+      "state_name": "CastleIdleState",
+      "states": [
+      	{
+			"condition_name": "IsManual",
+			"condition_value": true,
+			"state_name": "CastleManualState",
+			"states": [
+				{
+		          "condition_name": "HaveTroopQueue",
+		          "condition_value": true,
+		          "state_name": "CastleRepairResourceState",
+		          "states": [
+		            {
+		              "condition_name": "HaveCompleteResource",
+		              "condition_value": true,
+		              "state_name": "CastleSpawnTroopState",
+		              "states": [
+			            {
+			              "condition_name": "IsActive",
+			              "condition_value": true,
+			              "state_name": "CastleIdleState",
+			              "states": []
+			            }
+		              ]
+		            }
+		          ]
+		        }
+			]
+        },
+        {
+        	"condition_name": "IsManual",
+			"condition_value": false,
+			"state_name": "CastleAIState",
+			"states": [
+				{
+		          "condition_name": "CountdownWaitingTime",
+		          "condition_value": true,
+		          "state_name": "CastleSpawnAllTroopState",
+		          "states": [
+		            {
+		              "condition_name": "IsActive",
+		              "condition_value": true,
+		              "state_name": "CastleIdleState",
+		              "states": []
+		            }
+		          ]
+		        }
+			]
+        }
+      ]
+    },
+    {
+      "condition_name": "IsAnyState",
+      "condition_value": true,
+      "state_name": "AnyState",
+      "states": [
+        {
+          "condition_name": "IsCastleFail",
+          "condition_value": true,
+          "state_name": "CastleFailState",
+          "states": [
+            {
+              "condition_name": "IsCastleFail",
+              "condition_value": false,
+              "state_name": "CastleIdleState",
+              "states": []
+            }
+          ]
+        },{
+          "condition_name": "WasGameEnd",
+          "condition_value": true,
+          "state_name": "WaitingState",
+          "states": []
+        }
+      ]
+    }
+  ]
+}

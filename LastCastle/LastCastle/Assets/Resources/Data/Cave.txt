@@ -1,0 +1,16 @@
+﻿{
+	"caves" : [
+		{
+			"ID": 1,
+			"Name": "Bunny cave",
+			"EntityType": 501,
+			"Description": "",
+			"ModelPaths": ["Prefabs/Cave/BunnyCave"],
+			"FSMPath": "FSM/CaveFSM",
+			"Icon": "",
+			"MemberType": 601,
+			"MaxMember": 2,
+			"TimeSpawnSodier": 30
+		}
+	]
+}

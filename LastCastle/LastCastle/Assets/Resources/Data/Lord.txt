@@ -1,0 +1,11 @@
+﻿{
+	"ID": 0,
+	"Name": "Lord",
+	"Icon": "",
+	"ModelPaths": ["Prefabs/Lord/Lord"],
+	"EntityType": 1,
+	"TimeCreate": "1/1/1970",
+	"Gold": 1000,
+	"MapUnlock": [1001],
+	"CastleUnlock": [301]
+}

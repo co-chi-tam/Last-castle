@@ -1,0 +1,45 @@
+﻿{
+	"castleResources" : [
+		{
+			"ID": 1,
+			"Name": "Farm",
+			"EntityType": 401,
+			"Description": "",
+			"ModelPaths": ["Prefabs/CastleResource/Farm"],
+			"FSMPath": "FSM/CastleResourceFSM",
+			"Icon": "",
+			"ResourceCollects": [20,0,0,0],
+			"TimeCollect": 10
+		},{
+			"ID": 2,
+			"Name": "LakeFishing",
+			"EntityType": 402,
+			"Description": "",
+			"ModelPaths": ["Prefabs/CastleResource/LakeFishing"],
+			"FSMPath": "FSM/CastleResourceFSM",
+			"Icon": "",
+			"ResourceCollects": [0,20,0,0],
+			"TimeCollect": 10
+		},{
+			"ID": 3,
+			"Name": "Mine",
+			"EntityType": 403,
+			"Description": "",
+			"ModelPaths": ["Prefabs/CastleResource/Mine"],
+			"FSMPath": "FSM/CastleResourceFSM",
+			"Icon": "",
+			"ResourceCollects": [0,0,5,0],
+			"TimeCollect": 30
+		},{
+			"ID": 4,
+			"Name": "CattleStation",
+			"EntityType": 404,
+			"Description": "",
+			"ModelPaths": ["Prefabs/CastleResource/CattleStation"],
+			"FSMPath": "FSM/CastleResourceFSM",
+			"Icon": "",
+			"ResourceCollects": [0,0,5,0],
+			"TimeCollect": 30
+		}
+	]
+}

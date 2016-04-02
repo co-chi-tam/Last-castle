@@ -1,0 +1,185 @@
+﻿{
+	"maps":[
+		{
+			"MapObject": 1001,
+			"Position": "0,0,0",
+			"Rotation": "0,0,0",
+			"ObjectType" : 0,
+			"Team": 0,
+			"UnlockMap": 1002,
+			"Childs" : [
+				{
+					"MapObject": 401,
+					"Position": "-15,0,-8",
+					"Rotation": "0,0,0",
+					"ObjectType" : 2,
+					"Team": 0,
+					"Childs": []
+				},{
+					"MapObject": 401,
+					"Position": "-15,0,8",
+					"Rotation": "0,0,0",
+					"ObjectType" : 2,
+					"Team": 0,
+					"Childs": []
+				},{
+					"MapObject": 301,
+					"Position": "20,0,0",
+					"Rotation": "0,0,0",
+					"ObjectType" : 1,
+					"Team": 2,
+					"Childs": []
+				},{
+					"MapObject": 501,
+					"Position": "0,0,7",
+					"Rotation": "0,0,0",
+					"ObjectType" : 0,
+					"Team": 2,
+					"Childs": []
+				},{
+					"MapObject": 501,
+					"Position": "0,0,-7",
+					"Rotation": "0,0,0",
+					"ObjectType" : 0,
+					"Team": 2,
+					"Childs": []
+				}
+			]
+		},{
+			"MapObject": 1002,
+			"Position": "0,0,0",
+			"Rotation": "0,0,0",
+			"ObjectType" : 0,
+			"Team": 0,
+			"UnlockMap": 1003,
+			"Childs" : [
+				{
+					"MapObject": 401,
+					"Position": "-15,0,-8",
+					"Rotation": "0,0,0",
+					"ObjectType" : 2,
+					"Team": 0,
+					"Childs": []
+				},{
+					"MapObject": 401,
+					"Position": "-15,0,8",
+					"Rotation": "0,0,0",
+					"ObjectType" : 2,
+					"Team": 0,
+					"Childs": []
+				},{
+					"MapObject": 301,
+					"Position": "20,0,0",
+					"Rotation": "0,0,0",
+					"ObjectType" : 1,
+					"Team": 2,
+					"Childs": []
+				},{
+					"MapObject": 501,
+					"Position": "0,0,7",
+					"Rotation": "0,0,0",
+					"ObjectType" : 0,
+					"Team": 2,
+					"Childs": []
+				},{
+					"MapObject": 501,
+					"Position": "0,0,-7",
+					"Rotation": "0,0,0",
+					"ObjectType" : 0,
+					"Team": 2,
+					"Childs": []
+				}
+			]
+		},{
+			"MapObject": 1003,
+			"Position": "0,0,0",
+			"Rotation": "0,0,0",
+			"ObjectType" : 0,
+			"Team": 0,
+			"UnlockMap": 1004,
+			"Childs" : [
+				{
+					"MapObject": 401,
+					"Position": "-15,0,-8",
+					"Rotation": "0,0,0",
+					"ObjectType" : 2,
+					"Team": 0,
+					"Childs": []
+				},{
+					"MapObject": 401,
+					"Position": "-15,0,8",
+					"Rotation": "0,0,0",
+					"ObjectType" : 2,
+					"Team": 0,
+					"Childs": []
+				},{
+					"MapObject": 301,
+					"Position": "20,0,0",
+					"Rotation": "0,0,0",
+					"ObjectType" : 1,
+					"Team": 2,
+					"Childs": []
+				},{
+					"MapObject": 501,
+					"Position": "0,0,7",
+					"Rotation": "0,0,0",
+					"ObjectType" : 0,
+					"Team": 2,
+					"Childs": []
+				},{
+					"MapObject": 501,
+					"Position": "0,0,-7",
+					"Rotation": "0,0,0",
+					"ObjectType" : 0,
+					"Team": 2,
+					"Childs": []
+				}
+			]
+		},{
+			"MapObject": 1004,
+			"Position": "0,0,0",
+			"Rotation": "0,0,0",
+			"ObjectType" : 0,
+			"Team": 0,
+			"UnlockMap": 0,
+			"Childs" : [
+				{
+					"MapObject": 401,
+					"Position": "-15,0,-8",
+					"Rotation": "0,0,0",
+					"ObjectType" : 2,
+					"Team": 0,
+					"Childs": []
+				},{
+					"MapObject": 401,
+					"Position": "-15,0,8",
+					"Rotation": "0,0,0",
+					"ObjectType" : 2,
+					"Team": 0,
+					"Childs": []
+				},{
+					"MapObject": 302,
+					"Position": "20,0,0",
+					"Rotation": "0,0,0",
+					"ObjectType" : 1,
+					"Team": 2,
+					"Childs": []
+				},{
+					"MapObject": 501,
+					"Position": "0,0,7",
+					"Rotation": "0,0,0",
+					"ObjectType" : 0,
+					"Team": 2,
+					"Childs": []
+				},{
+					"MapObject": 501,
+					"Position": "0,0,-7",
+					"Rotation": "0,0,0",
+					"ObjectType" : 0,
+					"Team": 2,
+					"Childs": []
+				}
+			]
+		}
+	]
+}
