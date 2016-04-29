@@ -1,0 +1,40 @@
+newmtl northseaking-water
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd northseaking-water.png
+map_d northseaking-water.png
+
+newmtl northseaking-fire
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd northseaking-fire.png
+map_d northseaking-fire.png
+
+newmtl northseaking-wind
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd northseaking-wind.png
+map_d northseaking-wind.png
+
+newmtl northseaking-light
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd northseaking-light.png
+map_d northseaking-light.png
+
+newmtl northseaking-dark
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd northseaking-dark.png
+map_d northseaking-dark.png
+

@@ -5,7 +5,7 @@
 			"Name": "bunny",
 			"EntityType": 601,
 			"Description": "",
-			"ModelPaths": ["Prefabs/Animal/Bunny"],
+			"ModelPaths": ["Prefabs/Animal/Bunny 1","Prefabs/Animal/Bunny 2"],
 			"FSMPath": "FSM/AnimalFSM",
 			"Icon": "",
 			"MoveSpeed": 2,
