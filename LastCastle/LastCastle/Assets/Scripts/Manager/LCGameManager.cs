@@ -98,7 +98,7 @@ public class LCGameManager : CMonoBehaviour
 			stoneCastle.SetOwner(LCPlayerManager.CurrentPlayer);
 			stoneCastle.SetTransformPosition(position);
 			stoneCastle.SetTeam(LCEnum.EClass.Human);
-			stoneCastle.SetCommand(LCEnum.ECommand.AI);
+			stoneCastle.SetCommand(LCEnum.ECommand.Manual);     // Command mode AI/Manual
 			LCUIManager.Instance.InitBattleSceneUI(stoneCastle);
 			stoneCastle.InitUI();
 			stoneCastle.SetActive(true);
